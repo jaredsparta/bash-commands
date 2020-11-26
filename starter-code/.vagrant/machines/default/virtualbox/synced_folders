@@ -1,0 +1,1 @@
+{"virtualbox":{"/home/vagrant/files":{"guestpath":"/home/vagrant/files","hostpath":"C:/Users/Jared/Documents/GitHub/active/environment-variables/starter-code/files","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/Users/Jared/Documents/GitHub/active/environment-variables/starter-code","disabled":false,"__vagrantfile":true}}}
