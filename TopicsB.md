@@ -19,7 +19,7 @@
 - We can also use grep to return the lines where it doesn't match, using `grep -v`
 
 - Examples:
-    - `grep "Jared" text.txt` - returns every line that contains `Jared` in the file `text.txt`
+    - `grep "test" text.txt` - returns every line that contains `test` in the file `text.txt`
 
     - `grep -i "hello" text.txt` - returns every line that contains `hello` in whatever combination of upper or lowercase letters (e.g. "hellO", "hElLO", "HELLO")
 
@@ -67,14 +67,11 @@
 - To find the process id and it's name, we can use `pgrep <text-to-match>`. This will return a list of process id's and the corresponding names that were matched
 
 **Stopping processes**
-- To stop a background process from executing, we can use the `kill` command. Type in `jobs` to list all processes with their `jobid` and then type in `kill %<jobid>`
+- To stop a background process from executing, we can use the `kill` command. Type in `jobs` to list all processes with their `jobid` and then type in `kill <jobid>`
 
 - The `kill` command in general will stop the process given it's process id.
 
 - We can stop processes in general with `pkill` which kills processes based on it's name
 
-
-
 - Example:
     - `kill %1` - this will kill the first background process 
-
